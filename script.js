@@ -34,8 +34,7 @@ for(let i=0; i <weapons.length; i++){
     weapons[i].addEventListener("click",(e) =>{
         //set the revealing hands to rock
         player.src = "images/rock.png";
-        computer.src =`images/rock.png`;
-
+        computer.src ="images/rock.png";
         // hide the weapon box and show the player choices
         weaponBox.style.display ="none";
         playerChoicesBox.style.display ="block";
