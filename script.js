@@ -14,7 +14,7 @@ let drawValueTxt = document.querySelector(".score-box .Draw h3 span");
 let won = 0, lost = 0, draw = 0 ;
 
 
-let computerChoices =["Rock", "Paper", "scissors"];
+let computerChoices =["Rock", "Paper", "Scissors"];
 
 
 let outcomes ={
